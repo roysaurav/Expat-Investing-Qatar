@@ -26,6 +26,7 @@ if "Coming Soon" in nationality:
 st.sidebar.header("Investment Strategy")
 risk_profile = st.sidebar.radio("Choose Your Risk Profile", ( "High Risk", "Medium Risk","Low Risk"))
 
+st.sidebar.text_area("Describe your Investing Goals")  # Approx. 1,000 USD
 # --- Data Dictionaries ---
 
 # Asset Mix Data
